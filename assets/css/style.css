@@ -351,24 +351,28 @@ input:focus, textarea:focus, select:focus{
   flex-wrap:wrap;
 }
 
-/* === HOME PAGE CENTER ALIGNMENT === */
-.home .hero-top,
-.home .grid,
-.home .card{
-  text-align: center;
+/* FORCE CENTER ON HOME PAGE (DEBUG + FINAL) */
+body.home .hero-top,
+body.home .grid,
+body.home .card,
+body.home .card *{
+  text-align: center !important;
 }
 
-.home .hero-actions,
-.home .badges{
-  justify-content: center;
+body.home .hero-actions,
+body.home .badges{
+  justify-content: center !important;
 }
 
-.home .sub,
-.home .card p{
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 60ch;
+/* Center the cards within the grid */
+body.home .grid{
+  justify-items: center;
 }
-.fireflies{
-  z-index: 50;
+
+/* Make card contents centered even if flex gets involved later */
+body.home .card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+

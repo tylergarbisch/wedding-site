@@ -144,7 +144,7 @@ header.site-header{
   font-family: "Cormorant Garamond", Georgia, serif;
   font-weight: 600;
   letter-spacing: 0.06em;
-  font-size: clamp(42px, 6vw, 64px);
+  font-size: clamp(38px, 6vw, 60px);
 }
 
 

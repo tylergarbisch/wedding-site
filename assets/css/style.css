@@ -141,10 +141,11 @@ header.site-header{
 }
 
 .h1{
-  font-family: ui-serif, Georgia, "Times New Roman", Times, serif;
-  font-size: clamp(30px, 4vw, 44px);
-  margin:10px 0 8px;
-  letter-spacing:.2px;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
 }
 .sub{
   margin:0;
@@ -204,10 +205,11 @@ header.site-header{
 }
 
 .card h2{
-  margin:0 0 10px;
-  font-family: ui-serif, Georgia, "Times New Roman", Times, serif;
-  font-size:20px;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 600;
+  letter-spacing: 0.03em;
 }
+
 .card p{margin:0 0 10px; color:var(--muted); line-height:1.65}
 .card p:last-child{margin-bottom:0}
 

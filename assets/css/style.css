@@ -29,7 +29,7 @@ body{
     /* dark forest overlay */
     linear-gradient(180deg, rgba(10,28,20,.88), rgba(15,42,29,.92)),
     /* forest texture image */
-    url("/assets/img/forest-texture.png");
+url("/assets/img/forest-texture.png");
 
   background-size: cover;
   background-position: center;

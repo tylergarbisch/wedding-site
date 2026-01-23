@@ -21,20 +21,26 @@ body{
   color:var(--cream);
 
   background:
-    /* soft dark vignette */
-    radial-gradient(1200px 900px at 50% 10%, rgba(0,0,0,.35), transparent 60%),
-    /* fairy glow */
-    radial-gradient(900px 700px at 20% 25%, rgba(232,215,166,.10), transparent 55%),
-    radial-gradient(900px 700px at 80% 25%, rgba(120,160,100,.10), transparent 55%),
-    /* dark forest overlay */
-    linear-gradient(180deg, rgba(10,28,20,.88), rgba(15,42,29,.92)),
-    /* forest texture image */
-url("/assets/img/forest-texture.png");
+    /* strong edge vignette to frame content */
+    radial-gradient(1400px 900px at 50% 10%, rgba(0,0,0,.45), transparent 55%),
+
+    /* subtle fairy glow (reduced strength) */
+    radial-gradient(900px 700px at 20% 25%, rgba(232,215,166,.06), transparent 60%),
+    radial-gradient(900px 700px at 80% 25%, rgba(120,160,100,.06), transparent 60%),
+
+    /* darker forest overlay (less wash, more depth) */
+    linear-gradient(180deg, rgba(8,22,16,.65), rgba(10,28,20,.75)),
+
+    /* forest texture */
+    url("/assets/img/forest-texture.png");
 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+
+  /* darken image without flattening it */
+  filter: contrast(1.15) brightness(0.85) saturate(1.05);
 
   overflow-x:hidden;
 }

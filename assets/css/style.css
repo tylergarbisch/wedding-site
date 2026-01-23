@@ -351,3 +351,21 @@ input:focus, textarea:focus, select:focus{
   flex-wrap:wrap;
 }
 
+/* === HOME PAGE CENTER ALIGNMENT === */
+
+.hero-top{
+  text-align: center;
+}
+
+.hero-actions{
+  justify-content: center;
+}
+
+.card{
+  text-align: center;
+}
+
+.sub{
+  margin-left: auto;
+  margin-right: auto;
+}

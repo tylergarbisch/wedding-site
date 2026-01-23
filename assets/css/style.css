@@ -350,6 +350,7 @@ input:focus, textarea:focus, select:focus{
   gap:10px;
   flex-wrap:wrap;
 }
+
 /* === HOME PAGE CENTER ALIGNMENT === */
 .home .hero-top,
 .home .grid,
@@ -371,4 +372,3 @@ input:focus, textarea:focus, select:focus{
 .fireflies{
   z-index: 50;
 }
-

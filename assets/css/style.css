@@ -81,10 +81,9 @@ header.site-header{
   line-height:1.1;
 }
 .brand .names{
-  font-family: ui-serif, Georgia, "Times New Roman", Times, serif;
-  font-weight:700;
-  letter-spacing:.2px;
-  font-size:16px;
+   font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 600;
+  letter-spacing: 0.04em;
 }
 .brand .meta{
   font-size:12px;

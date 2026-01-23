@@ -4,12 +4,14 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>RSVP — Tyler & Cynthia</title>
- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
- 
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
+
 <body>
   <div class="fireflies" aria-hidden="true"></div>
 
@@ -32,80 +34,43 @@
   <main class="container">
     <section class="hero">
       <div class="hero-card">
-        <div class="hero-top">
-          <div class="kicker"><span class="dot"></span> rsvp</div>
-          <h1 class="h1">RSVP</h1>
-          <p class="sub">Please let us know if you’ll be joining us in Sedona.</p>
-          <p class="small">Deadline: (add later if you want)</p>
+
+        <div class="hero-top" style="text-align:center;">
+          <div class="kicker"><span class="dot"></span> RSVP</div>
+          <h1 class="h1" style="font-size: clamp(34px, 4.5vw, 52px);">
+            We Can’t Wait to Celebrate With You
+          </h1>
+          <p class="sub" style="max-width: 65ch; margin: 0 auto;">
+            Please let us know if you’ll be joining us in Sedona.
+          </p>
         </div>
 
-        <div class="grid">
-          <div class="card span7">
-            <!-- Netlify Form: works when deployed on Netlify -->
-            <form name="wedding-rsvp" method="POST" data-netlify="true">
-              <input type="hidden" name="form-name" value="wedding-rsvp" />
-
-              <label>
-                Your name(s)
-                <input name="name" type="text" autocomplete="name" required />
-              </label>
-
-              <label>
-                Email (for confirmation/questions)
-                <input name="email" type="email" autocomplete="email" required />
-              </label>
-
-              <label>
-                Will you be attending?
-                <select name="attending" required>
-                  <option value="" disabled selected>Select one…</option>
-                  <option>Yes — can’t wait!</option>
-                  <option>No — cheering you on from afar</option>
-                </select>
-              </label>
-
-              <label>
-                Number of guests in your party
-                <input name="party_size" type="number" min="1" max="10" value="1" required />
-              </label>
-
-              <label>
-                Dietary restrictions / allergies
-                <textarea name="dietary" placeholder="Optional"></textarea>
-              </label>
-
-              <label>
-                Song request (optional)
-                <input name="song" type="text" placeholder="Optional" />
-              </label>
-
-              <button class="btn primary" type="submit">Send RSVP</button>
-              <p class="small" style="margin:0;">
-                If you have trouble submitting, just message us directly.
-              </p>
-            </form>
-          </div>
-
-          <div class="card span5">
-            <h2>Before you arrive</h2>
-            <p>Outdoor venue • Elevation <span id="venue-elevation">~4,500 feet</span> • Cell service is limited</p>
-            <p><strong>Venue:</strong><br/>9440 AZ-89A, Sedona, AZ 86336</p>
-            <p>
-              <a class="btn" target="_blank" rel="noopener"
-                 href="https://maps.google.com/?q=9440+AZ-89A+Sedona+AZ+86336">Open Map</a>
-              <a class="btn" href="schedule.html">Schedule</a>
-            </p>
-          </div>
+        <div class="card span12" style="margin-top:18px;">
+          <!-- GOOGLE FORM EMBED -->
+          <iframe
+            src="https://docs.google.com/forms/d/1iK2VWxs6N7jeqGpvNXIeK5Ojs3aEOcTQ2cVn2FeX8gQ/edit"
+            width="100%"
+            height="1100"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+            style="
+              border-radius: 18px;
+              border: 1px solid rgba(232,215,166,.18);
+              background: rgba(10,28,20,.35);
+            ">
+            Loading…
+          </iframe>
         </div>
+
       </div>
     </section>
 
-    <footer>
-      © 2026 Tyler Garbisch & Cynthia Crary
+    <footer style="text-align:center;">
+      © 2026 Tyler Garbisch & Cynthia Crary • Crafted in the woods (and on the internet)
     </footer>
   </main>
 
   <script src="assets/js/main.js"></script>
 </body>
 </html>
-

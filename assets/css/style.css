@@ -20,24 +20,29 @@ body{
   font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif;
   color:var(--cream);
 
-  background:
-  radial-gradient(1400px 900px at 50% 10%, rgba(0,0,0,.45), transparent 55%),
-  radial-gradient(900px 700px at 20% 25%, rgba(232,215,166,.06), transparent 60%),
-  radial-gradient(900px 700px at 80% 25%, rgba(120,160,100,.06), transparent 60%),
-  linear-gradient(180deg, rgba(8,22,16,.65), rgba(10,28,20,.75)),
-url("../img/forest-texture.png")
+  background-color: var(--green); /* fallback if image fails */
 
+  background-image:
+    radial-gradient(1400px 900px at 50% 10%, rgba(0,0,0,.45), transparent 55%),
+    radial-gradient(900px 700px at 20% 25%, rgba(232,215,166,.06), transparent 60%),
+    radial-gradient(900px 700px at 80% 25%, rgba(120,160,100,.06), transparent 60%),
+    linear-gradient(180deg, rgba(8,22,16,.55), rgba(10,28,20,.65)),
+    url("../img/forest-texture.png");
 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-size:
+    cover, cover, cover, cover, cover;
+
+  background-position:
+    center, center, center, center, center;
+
+  background-repeat:
+    no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+
   background-attachment: fixed;
-
-  /* darken image without flattening it */
-  filter: contrast(1.15) brightness(0.85) saturate(1.05);
 
   overflow-x:hidden;
 }
+
 
 
 

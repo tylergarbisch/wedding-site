@@ -368,4 +368,7 @@ input:focus, textarea:focus, select:focus{
   margin-right: auto;
   max-width: 60ch;
 }
+.fireflies{
+  z-index: 50;
+}
 

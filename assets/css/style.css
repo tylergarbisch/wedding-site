@@ -378,7 +378,7 @@ body.home .card{
 .venue-date{
   display: inline-block;
   font-weight: 600;
-  font-size: 1.15em;      /* slightly larger than surrounding text */
+  font-size: 1.45em;      /* slightly larger than surrounding text */
   letter-spacing: 0.04em;
   margin-bottom: 2px;
 }

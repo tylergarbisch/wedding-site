@@ -382,4 +382,15 @@ body.home .card{
   letter-spacing: 0.04em;
   margin-bottom: 2px;
 }
+.schedule-image{
+  width: 100%;
+  max-width: 720px;     /* matches your large text cards */
+  max-height: 360px;    /* THIS is what shrinks the “tall” feeling */
+  object-fit: cover;    /* crops excess height cleanly */
+  display: block;
+  margin: 0 auto;
+  border-radius: 18px;
+  border: 1px solid rgba(232,215,166,.18);
+  box-shadow: 0 12px 30px rgba(0,0,0,.25);
+}
 

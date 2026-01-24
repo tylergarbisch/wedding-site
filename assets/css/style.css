@@ -375,4 +375,11 @@ body.home .card{
   flex-direction: column;
   align-items: center;
 }
+.venue-date{
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.15em;      /* slightly larger than surrounding text */
+  letter-spacing: 0.04em;
+  margin-bottom: 2px;
+}
 

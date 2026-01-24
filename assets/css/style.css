@@ -25,9 +25,9 @@ body{
 
   /* LAYERS (top → bottom): vignette, glows, dark overlay, forest image */
   background-image:
-    radial-gradient(1400px 900px at 50% 10%, rgba(0,0,0,.45), transparent 55%),
-    radial-gradient(900px 700px at 20% 25%, rgba(232,215,166,.06), transparent 60%),
-    radial-gradient(900px 700px at 80% 25%, rgba(120,160,100,.06), transparent 60%),
+    radial-gradient(1400px 900px at 50% 10%, rgba(0,0,0,.45), transparent 35%),
+    radial-gradient(900px 700px at 20% 25%, rgba(232,215,166,.06), transparent 40%),
+    radial-gradient(900px 700px at 80% 25%, rgba(120,160,100,.06), transparent 40%),
     linear-gradient(180deg, rgba(8,22,16,.45), rgba(10,28,20,.55)),
     url("../img/forest-texture.png");
 

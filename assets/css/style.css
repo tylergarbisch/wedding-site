@@ -494,3 +494,15 @@ body.home .card{
     font-size: 16px;
   }
 }
+/* Soft glow for final story image */
+.glow-soft{
+  box-shadow:
+    0 12px 30px rgba(0,0,0,.25),
+    0 0 28px rgba(232,215,166,.18);
+}
+
+/* Optional: slightly shorter so it feels like a closing image */
+.looking-forward .story-img{
+  max-height: 320px;
+  object-fit: cover;
+}

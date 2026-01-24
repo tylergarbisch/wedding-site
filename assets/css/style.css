@@ -469,3 +469,28 @@ body.home .card{
   .party-info{ text-align:center; }
 }
 
+/* Wedding Party – Name Lists */
+.party-list{
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+  display: grid;
+  gap: 6px;
+  font-size: 18px;
+  letter-spacing: .04em;
+}
+
+.party-list li{
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(232,215,166,.16);
+  background: rgba(244,238,223,.04);
+  display: inline-block;
+}
+
+/* Slightly tighter on mobile */
+@media (max-width: 600px){
+  .party-list{
+    font-size: 16px;
+  }
+}

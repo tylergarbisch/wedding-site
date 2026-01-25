@@ -510,3 +510,22 @@ body.home .card{
   display: block;
   margin-top: 10px;
 }
+/* Schedule page: centered caption under image */
+.schedule-caption{
+  display: inline-block;    /* width = text */
+  margin: 10px auto 0;      /* center the element */
+  text-align: center;
+
+  font-size: 1.1em;         /* slightly bigger */
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  opacity: 0.95;
+}
+
+/* Let it wrap on small screens */
+@media (max-width: 600px){
+  .schedule-caption{
+    white-space: normal;
+  }
+}

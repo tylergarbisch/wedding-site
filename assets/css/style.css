@@ -510,3 +510,10 @@ body.home .card{
   display: block;
   margin-top: 10px;
 }
+.span4{ grid-column: span 4; }
+.span8{ grid-column: span 8; }
+@media (max-width: 820px){
+  .span4, .span8{
+    grid-column: span 12;
+  }
+}

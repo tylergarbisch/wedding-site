@@ -506,3 +506,7 @@ body.home .card{
   max-height: 320px;
   object-fit: cover;
 }
+.caption{
+  display: block;
+  margin-top: 10px;
+}
